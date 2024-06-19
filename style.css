@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.birthdayBox{
+    padding: 50px;
+    border: 1px soild white;
+    text-align: center;
+    background-color: bisque;
+
+}
+
+.birthdayBox h1{
+    font-size: 30px;
+    font-family: cursive;
+    color: cadetblue;
+
+}
+
+hr{
+    background-color: chocolate;
+    margin: 10px 0px;
+    color: chocolate;
+
+}
+
+.timer{
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
